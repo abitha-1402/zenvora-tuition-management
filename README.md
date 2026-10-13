@@ -192,5 +192,10 @@ bubblewrap build
 
 ---
 
+## Live Demo
+
+[Open app here](https://zenvora-63.ai.studio)
+
+
 ## 📄 License
 Academic and College Project License. Built for E-Business Management demonstration.
