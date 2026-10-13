@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="zenvoraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7047D7" />
+      <stop offset="100%" stop-color="#45258D" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3EEFF" />
+      <stop offset="100%" stop-color="#D6C4F8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle with padding for maskable safe zone -->
+  <rect width="512" height="512" rx="112" fill="url(#zenvoraGrad)"/>
+  
+  <!-- Geometric Diamond / Zen Crest Hexagon behind cap -->
+  <path d="M256 90 L380 180 L380 332 L256 422 L132 332 L132 180 Z" 
+        stroke="#F3EEFF" stroke-width="8" stroke-dasharray="16 12" stroke-opacity="0.3" fill="none" />
+  
+  <!-- Inner geometric diamond shield -->
+  <path d="M256 124 L350 200 L350 312 L256 388 L162 312 L162 200 Z" 
+        fill="#FFFFFF" fill-opacity="0.08" />
+
+  <!-- Graduation Cap -->
+  <!-- Mortarboard Diamond Top -->
+  <path d="M256 150 L390 216 L256 282 L122 216 Z" fill="#FFFFFF" />
+  
+  <!-- Cap Skull Base / Band -->
+  <path d="M174 246 L174 300 C174 340 338 340 338 300 L338 246 C314 266 284 276 256 276 C228 276 198 266 174 246 Z" fill="#EAE0FC" />
+
+  <!-- Tassel ribbon & bead -->
+  <circle cx="256" cy="216" r="8" fill="#45258D" />
+  <path d="M256 216 Q200 230 176 266" stroke="#FAF9FF" stroke-width="7" stroke-linecap="round" fill="none" />
+  <circle cx="176" cy="268" r="6" fill="#FFFFFF" />
+  <path d="M176 268 L170 324 L182 324 Z" fill="#F3EEFF" />
+
+  <!-- Geometric "Z" lettermark overlay subtly integrated below -->
+  <path d="M216 350 L296 350 L236 414 L296 414" 
+        stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Zenvora",
+  "description": "Smart Tuition Management System — Smarter Classes. Simpler Management. Comprehensive tuition centre portal with student QR attendance, fee collection, batch scheduling, and teacher management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
